@@ -1,0 +1,2489 @@
+{
+ "schemaVersion": 1,
+ "contentVersion": 2,
+ "publishedAt": "2026-11-22",
+ "changelog": {
+  "en": "Online program updates are on. No changes to your training or meals.",
+  "ar": "تحديثات البرنامج أونلاين اشتغلت. مفيش تغيير في التمرين أو الأكل."
+ },
+ "defaultStartDate": "2026-11-20",
+ "targets": {
+  "T": {
+   "kcal": 3000,
+   "protein": 170,
+   "carbs": 400,
+   "fat": 80
+  },
+  "R": {
+   "kcal": 2750,
+   "protein": 170,
+   "carbs": 326,
+   "fat": 85
+  }
+ },
+ "foods": [
+  {
+   "id": "egg",
+   "name": {
+    "en": "Whole egg",
+    "ar": "بيضة كاملة"
+   },
+   "unit": "egg",
+   "per": 1,
+   "kcal": 72,
+   "protein": 6.3,
+   "carbs": 0.4,
+   "fat": 4.8
+  },
+  {
+   "id": "ful",
+   "name": {
+    "en": "Ful medames, cooked",
+    "ar": "فول مدمس مطبوخ"
+   },
+   "unit": "g",
+   "per": 100,
+   "kcal": 110,
+   "protein": 7.6,
+   "carbs": 19.7,
+   "fat": 0.4
+  },
+  {
+   "id": "bread",
+   "name": {
+    "en": "Baladi bread, whole wheat, ≈90 g loaf",
+    "ar": "عيش بلدي (رغيف ≈ 90 جم)"
+   },
+   "unit": "loaf",
+   "per": 1,
+   "kcal": 240,
+   "protein": 8,
+   "carbs": 48,
+   "fat": 1.5
+  },
+  {
+   "id": "qarish",
+   "name": {
+    "en": "Low-fat qarish cheese",
+    "ar": "جبنة قريش قليلة الدسم"
+   },
+   "unit": "g",
+   "per": 100,
+   "kcal": 72,
+   "protein": 12,
+   "carbs": 3.5,
+   "fat": 1
+  },
+  {
+   "id": "greek",
+   "name": {
+    "en": "Greek-style yogurt, low fat",
+    "ar": "زبادي يوناني قليل الدسم"
+   },
+   "unit": "g",
+   "per": 100,
+   "kcal": 73,
+   "protein": 10,
+   "carbs": 4,
+   "fat": 2
+  },
+  {
+   "id": "milk",
+   "name": {
+    "en": "Milk, full fat",
+    "ar": "لبن حليب كامل الدسم"
+   },
+   "unit": "ml",
+   "per": 100,
+   "kcal": 61,
+   "protein": 3.2,
+   "carbs": 4.8,
+   "fat": 3.3
+  },
+  {
+   "id": "oats",
+   "name": {
+    "en": "Oats, dry",
+    "ar": "شوفان (ناشف)"
+   },
+   "unit": "g",
+   "per": 100,
+   "kcal": 380,
+   "protein": 13,
+   "carbs": 67,
+   "fat": 7
+  },
+  {
+   "id": "walnut",
+   "name": {
+    "en": "Walnuts",
+    "ar": "عين جمل"
+   },
+   "unit": "g",
+   "per": 10,
+   "kcal": 65,
+   "protein": 1.5,
+   "carbs": 1.4,
+   "fat": 6.5
+  },
+  {
+   "id": "tahini",
+   "name": {
+    "en": "Tahini",
+    "ar": "طحينة"
+   },
+   "unit": "tbsp",
+   "per": 1,
+   "kcal": 89,
+   "protein": 2.6,
+   "carbs": 3.2,
+   "fat": 8
+  },
+  {
+   "id": "oil",
+   "name": {
+    "en": "Olive oil",
+    "ar": "زيت زيتون"
+   },
+   "unit": "tbsp",
+   "per": 1,
+   "kcal": 119,
+   "protein": 0,
+   "carbs": 0,
+   "fat": 13.5
+  },
+  {
+   "id": "salad",
+   "name": {
+    "en": "Salad: tomato, cucumber, lettuce",
+    "ar": "سلطة خضرا: طماطم وخيار وخس"
+   },
+   "unit": "g",
+   "per": 100,
+   "kcal": 22,
+   "protein": 1.1,
+   "carbs": 4.5,
+   "fat": 0.2
+  },
+  {
+   "id": "bamia",
+   "name": {
+    "en": "Okra in tomato sauce",
+    "ar": "بامية بالصلصة"
+   },
+   "unit": "g",
+   "per": 100,
+   "kcal": 55,
+   "protein": 2,
+   "carbs": 8,
+   "fat": 2
+  },
+  {
+   "id": "molokhia",
+   "name": {
+    "en": "Molokhia in broth",
+    "ar": "ملوخية بالشوربة"
+   },
+   "unit": "g",
+   "per": 100,
+   "kcal": 45,
+   "protein": 3.5,
+   "carbs": 5,
+   "fat": 1.3
+  },
+  {
+   "id": "veg",
+   "name": {
+    "en": "Cooked vegetables: zucchini, green beans, spinach",
+    "ar": "خضار مطبوخ: كوسة وفاصوليا خضرا وسبانخ"
+   },
+   "unit": "g",
+   "per": 100,
+   "kcal": 40,
+   "protein": 2,
+   "carbs": 7,
+   "fat": 0.8
+  },
+  {
+   "id": "chicken",
+   "name": {
+    "en": "Chicken breast, raw weight",
+    "ar": "صدور فراخ (الوزن نيّ)"
+   },
+   "unit": "g",
+   "per": 100,
+   "kcal": 120,
+   "protein": 22.5,
+   "carbs": 0,
+   "fat": 2.6
+  },
+  {
+   "id": "beef",
+   "name": {
+    "en": "Lean beef or lean kofta, raw weight",
+    "ar": "لحمة بتلو أو كفتة قليلة الدهن (الوزن نيّ)"
+   },
+   "unit": "g",
+   "per": 100,
+   "kcal": 143,
+   "protein": 21,
+   "carbs": 0,
+   "fat": 6
+  },
+  {
+   "id": "bolti",
+   "name": {
+    "en": "Bolti / tilapia, raw weight",
+    "ar": "سمك بلطي (الوزن نيّ)"
+   },
+   "unit": "g",
+   "per": 100,
+   "kcal": 96,
+   "protein": 20,
+   "carbs": 0,
+   "fat": 1.7
+  },
+  {
+   "id": "sardine",
+   "name": {
+    "en": "Fresh sardines, raw weight",
+    "ar": "سردين طازة (الوزن نيّ)"
+   },
+   "unit": "g",
+   "per": 100,
+   "kcal": 135,
+   "protein": 19,
+   "carbs": 0,
+   "fat": 6
+  },
+  {
+   "id": "mackerel",
+   "name": {
+    "en": "Mackerel, raw weight",
+    "ar": "سمك ماكريل (الوزن نيّ)"
+   },
+   "unit": "g",
+   "per": 100,
+   "kcal": 205,
+   "protein": 19,
+   "carbs": 0,
+   "fat": 14
+  },
+  {
+   "id": "tuna",
+   "name": {
+    "en": "Canned tuna in water, drained",
+    "ar": "تونة معلبة في مية (مصفّاة)"
+   },
+   "unit": "g",
+   "per": 100,
+   "kcal": 116,
+   "protein": 26,
+   "carbs": 0,
+   "fat": 1
+  },
+  {
+   "id": "shrimp",
+   "name": {
+    "en": "Shrimp, raw weight",
+    "ar": "جمبري (الوزن نيّ)"
+   },
+   "unit": "g",
+   "per": 100,
+   "kcal": 85,
+   "protein": 18,
+   "carbs": 0.2,
+   "fat": 1
+  },
+  {
+   "id": "rice",
+   "name": {
+    "en": "White rice, cooked",
+    "ar": "رز أبيض مطبوخ"
+   },
+   "unit": "g",
+   "per": 100,
+   "kcal": 130,
+   "protein": 2.7,
+   "carbs": 28,
+   "fat": 0.3
+  },
+  {
+   "id": "pasta",
+   "name": {
+    "en": "Pasta, cooked",
+    "ar": "مكرونة مسلوقة"
+   },
+   "unit": "g",
+   "per": 100,
+   "kcal": 158,
+   "protein": 5.8,
+   "carbs": 31,
+   "fat": 0.9
+  },
+  {
+   "id": "potato",
+   "name": {
+    "en": "Potato, boiled",
+    "ar": "بطاطس مسلوقة"
+   },
+   "unit": "g",
+   "per": 100,
+   "kcal": 87,
+   "protein": 1.9,
+   "carbs": 20,
+   "fat": 0.1
+  },
+  {
+   "id": "batata",
+   "name": {
+    "en": "Sweet potato, baked",
+    "ar": "بطاطا مشوية"
+   },
+   "unit": "g",
+   "per": 100,
+   "kcal": 90,
+   "protein": 2,
+   "carbs": 21,
+   "fat": 0.1
+  },
+  {
+   "id": "lentil",
+   "name": {
+    "en": "Brown lentils, cooked",
+    "ar": "عدس بجبة مطبوخ"
+   },
+   "unit": "g",
+   "per": 100,
+   "kcal": 116,
+   "protein": 9,
+   "carbs": 20,
+   "fat": 0.4
+  },
+  {
+   "id": "chickpea",
+   "name": {
+    "en": "Chickpeas, cooked",
+    "ar": "حمص مسلوق"
+   },
+   "unit": "g",
+   "per": 100,
+   "kcal": 164,
+   "protein": 8.9,
+   "carbs": 27,
+   "fat": 2.6
+  },
+  {
+   "id": "bulgur",
+   "name": {
+    "en": "Bulgur, cooked",
+    "ar": "برغل مطبوخ"
+   },
+   "unit": "g",
+   "per": 100,
+   "kcal": 83,
+   "protein": 3,
+   "carbs": 19,
+   "fat": 0.2
+  },
+  {
+   "id": "banana",
+   "name": {
+    "en": "Banana, medium",
+    "ar": "موزة متوسطة"
+   },
+   "unit": "pc",
+   "per": 1,
+   "kcal": 105,
+   "protein": 1.3,
+   "carbs": 27,
+   "fat": 0.4
+  },
+  {
+   "id": "orange",
+   "name": {
+    "en": "Orange",
+    "ar": "برتقانة"
+   },
+   "unit": "pc",
+   "per": 1,
+   "kcal": 62,
+   "protein": 1.2,
+   "carbs": 15,
+   "fat": 0.2
+  },
+  {
+   "id": "apple",
+   "name": {
+    "en": "Apple",
+    "ar": "تفاحة"
+   },
+   "unit": "pc",
+   "per": 1,
+   "kcal": 95,
+   "protein": 0.5,
+   "carbs": 25,
+   "fat": 0.3
+  },
+  {
+   "id": "guava",
+   "name": {
+    "en": "Guava",
+    "ar": "جوافة"
+   },
+   "unit": "pc",
+   "per": 1,
+   "kcal": 68,
+   "protein": 2.6,
+   "carbs": 14,
+   "fat": 1
+  },
+  {
+   "id": "dates",
+   "name": {
+    "en": "Dates",
+    "ar": "بلح / تمر (حبة)"
+   },
+   "unit": "pc",
+   "per": 1,
+   "kcal": 23,
+   "protein": 0.2,
+   "carbs": 6.2,
+   "fat": 0
+  }
+ ],
+ "categories": [
+  {
+   "id": "protein",
+   "name": {
+    "en": "Protein & dairy",
+    "ar": "بروتين وألبان"
+   },
+   "foods": [
+    "chicken",
+    "beef",
+    "bolti",
+    "sardine",
+    "mackerel",
+    "tuna",
+    "shrimp",
+    "egg",
+    "qarish",
+    "greek",
+    "milk"
+   ]
+  },
+  {
+   "id": "carbs",
+   "name": {
+    "en": "Carbs & legumes",
+    "ar": "نشويات وبقوليات"
+   },
+   "foods": [
+    "bread",
+    "rice",
+    "pasta",
+    "potato",
+    "batata",
+    "oats",
+    "bulgur",
+    "ful",
+    "lentil",
+    "chickpea"
+   ]
+  },
+  {
+   "id": "produce",
+   "name": {
+    "en": "Vegetables & fruit",
+    "ar": "خضار وفاكهة"
+   },
+   "foods": [
+    "salad",
+    "veg",
+    "bamia",
+    "molokhia",
+    "banana",
+    "orange",
+    "apple",
+    "guava",
+    "dates"
+   ]
+  },
+  {
+   "id": "fats",
+   "name": {
+    "en": "Fats & extras",
+    "ar": "دهون وإضافات"
+   },
+   "foods": [
+    "oil",
+    "tahini",
+    "walnut"
+   ]
+  }
+ ],
+ "sessions": [
+  {
+   "id": "legs",
+   "shortName": {
+    "en": "Legs",
+    "ar": "أرجل"
+   },
+   "name": {
+    "en": "Legs",
+    "ar": "أرجل"
+   },
+   "type": "T",
+   "cardio": 20,
+   "focus": {
+    "en": "Quads, hamstrings, glutes, calves",
+    "ar": "أمامية وخلفية الفخذ، الجلوتس، السمانة"
+   },
+   "exercises": [
+    {
+     "id": "leg_press",
+     "name": {
+      "en": "Leg press",
+      "ar": "ليج برس (دفع الأرجل)"
+     },
+     "sets": 3,
+     "repMin": 8,
+     "repMax": 12,
+     "unit": "reps",
+     "perSide": false,
+     "rest": {
+      "en": "2–3 min",
+      "ar": "2–3 دقائق"
+     },
+     "rir": "2-3",
+     "tech": null,
+     "cue": {
+      "en": "Feet shoulder-width, lower back flat on the pad, control the lowering.",
+      "ar": "القدمان بعرض الكتفين، أسفل الظهر ملاصق للمسند، تحكّم في النزول."
+     },
+     "alt": {
+      "en": "Hack squat",
+      "ar": "هاك سكوات"
+     }
+    },
+    {
+     "id": "hack_squat",
+     "name": {
+      "en": "Hack squat",
+      "ar": "هاك سكوات"
+     },
+     "sets": 3,
+     "repMin": 8,
+     "repMax": 12,
+     "unit": "reps",
+     "perSide": false,
+     "rest": {
+      "en": "2–3 min",
+      "ar": "2–3 دقائق"
+     },
+     "rir": "2-3",
+     "tech": null,
+     "cue": {
+      "en": "3-second lowering, full range you can control.",
+      "ar": "انزل في 3 ثوانٍ، بأكبر مدى حركة تقدر تتحكم فيه."
+     },
+     "alt": {
+      "en": "Smith-machine squat",
+      "ar": "سكوات على جهاز السميث"
+     }
+    },
+    {
+     "id": "leg_curl",
+     "name": {
+      "en": "Lying leg curl",
+      "ar": "ليج كيرل نائمًا (ثني الركبة)"
+     },
+     "sets": 3,
+     "repMin": 8,
+     "repMax": 12,
+     "unit": "reps",
+     "perSide": false,
+     "rest": {
+      "en": "90 s",
+      "ar": "90 ث"
+     },
+     "rir": "2",
+     "tech": "DS",
+     "cue": {
+      "en": "Hips down on the pad, 3-second lowering.",
+      "ar": "الحوض ملاصق للمسند، انزل في 3 ثوانٍ."
+     },
+     "alt": {
+      "en": "Seated leg curl",
+      "ar": "ليج كيرل جالسًا"
+     }
+    },
+    {
+     "id": "leg_ext",
+     "name": {
+      "en": "Leg extension",
+      "ar": "ليج إكستنشن (مد الركبة)"
+     },
+     "sets": 3,
+     "repMin": 10,
+     "repMax": 15,
+     "unit": "reps",
+     "perSide": false,
+     "rest": {
+      "en": "90 s",
+      "ar": "90 ث"
+     },
+     "rir": "2",
+     "tech": "DS",
+     "cue": {
+      "en": "Pause 1 second at the top.",
+      "ar": "اثبت ثانية واحدة في الأعلى."
+     },
+     "alt": {
+      "en": "Narrow-stance hack squat",
+      "ar": "هاك سكوات بوقفة ضيقة"
+     }
+    },
+    {
+     "id": "hip_thrust",
+     "name": {
+      "en": "Machine hip thrust",
+      "ar": "هيب ثرست على الجهاز"
+     },
+     "sets": 3,
+     "repMin": 10,
+     "repMax": 12,
+     "unit": "reps",
+     "perSide": false,
+     "rest": {
+      "en": "90 s",
+      "ar": "90 ث"
+     },
+     "rir": "2-3",
+     "tech": null,
+     "cue": {
+      "en": "Ribs down, squeeze the glutes at the top. Drop this first if time runs short.",
+      "ar": "الضلوع لتحت، اعصر الجلوتس في الأعلى. احذف التمرين ده أولًا لو الوقت ضيق."
+     },
+     "alt": {
+      "en": "Cable glute kickback",
+      "ar": "ركلة خلفية للجلوتس بالكابل"
+     }
+    },
+    {
+     "id": "calf",
+     "name": {
+      "en": "Calf raise (leg press or seated)",
+      "ar": "رفع السمانة (على الليج برس أو جالسًا)"
+     },
+     "sets": 3,
+     "repMin": 10,
+     "repMax": 15,
+     "unit": "reps",
+     "perSide": false,
+     "rest": {
+      "en": "60 s",
+      "ar": "60 ث"
+     },
+     "rir": "2",
+     "tech": null,
+     "cue": {
+      "en": "Full pause at the stretch.",
+      "ar": "اثبت تمامًا عند أقصى إطالة."
+     },
+     "alt": {
+      "en": "Seated calf raise",
+      "ar": "رفع السمانة جالسًا"
+     }
+    }
+   ]
+  },
+  {
+   "id": "back_biceps",
+   "shortName": {
+    "en": "Back",
+    "ar": "ظهر"
+   },
+   "name": {
+    "en": "Back & Biceps",
+    "ar": "ظهر وباي"
+   },
+   "type": "T",
+   "cardio": 20,
+   "focus": {
+    "en": "Lats, mid-back, biceps",
+    "ar": "المجانص، منتصف الظهر، البايسبس"
+   },
+   "exercises": [
+    {
+     "id": "row",
+     "name": {
+      "en": "Chest-supported machine row",
+      "ar": "تجديف على الجهاز بسند الصدر"
+     },
+     "sets": 3,
+     "repMin": 8,
+     "repMax": 12,
+     "unit": "reps",
+     "perSide": false,
+     "rest": {
+      "en": "2–3 min",
+      "ar": "2–3 دقائق"
+     },
+     "rir": "2-3",
+     "tech": null,
+     "cue": {
+      "en": "Elbows about 45° from your torso, squeeze the shoulder blades.",
+      "ar": "الكوعان بزاوية 45° تقريبًا من الجذع، اضغط لوحي الكتف."
+     },
+     "alt": {
+      "en": "Chest-supported DB row",
+      "ar": "تجديف دمبل بسند الصدر"
+     }
+    },
+    {
+     "id": "pulldown",
+     "name": {
+      "en": "Neutral-grip lat pulldown",
+      "ar": "سحب عالي بقبضة متعادلة"
+     },
+     "sets": 3,
+     "repMin": 8,
+     "repMax": 12,
+     "unit": "reps",
+     "perSide": false,
+     "rest": {
+      "en": "2 min",
+      "ar": "دقيقتان"
+     },
+     "rir": "2-3",
+     "tech": null,
+     "cue": {
+      "en": "Elbows down and forward, stop just short of straight arms.",
+      "ar": "الكوعان لتحت ولقدام، وقّف قبل فرد الذراعين بالكامل."
+     },
+     "alt": {
+      "en": "Assisted neutral-grip pull-up",
+      "ar": "عقلة مساعدة بقبضة متعادلة"
+     }
+    },
+    {
+     "id": "low_row",
+     "name": {
+      "en": "Single-arm low cable row",
+      "ar": "تجديف كابل منخفض بذراع واحدة"
+     },
+     "sets": 3,
+     "repMin": 10,
+     "repMax": 12,
+     "unit": "reps",
+     "perSide": true,
+     "rest": {
+      "en": "90 s",
+      "ar": "90 ث"
+     },
+     "rir": "2-3",
+     "tech": null,
+     "cue": {
+      "en": "Smooth pull, neutral wrist.",
+      "ar": "سحب ناعم، والرسغ في وضع متعادل."
+     },
+     "alt": {
+      "en": "Seated cable row",
+      "ar": "تجديف كابل جالسًا"
+     }
+    },
+    {
+     "id": "cable_curl",
+     "name": {
+      "en": "Standing cable curl",
+      "ar": "باي كيرل بالكابل وقوفًا"
+     },
+     "sets": 3,
+     "repMin": 8,
+     "repMax": 12,
+     "unit": "reps",
+     "perSide": false,
+     "rest": {
+      "en": "90 s",
+      "ar": "90 ث"
+     },
+     "rir": "2-3",
+     "tech": null,
+     "cue": {
+      "en": "Elbows pinned, no swinging.",
+      "ar": "الكوعان ثابتان، من غير مرجحة."
+     },
+     "alt": {
+      "en": "EZ-bar curl",
+      "ar": "باي كيرل بالبار المتعرج (EZ)"
+     }
+    },
+    {
+     "id": "preacher",
+     "name": {
+      "en": "Machine preacher curl",
+      "ar": "بريتشر كيرل على الجهاز"
+     },
+     "sets": 3,
+     "repMin": 10,
+     "repMax": 12,
+     "unit": "reps",
+     "perSide": false,
+     "rest": {
+      "en": "90 s",
+      "ar": "90 ث"
+     },
+     "rir": "2-3",
+     "tech": "DS",
+     "cue": {
+      "en": "Control the bottom of the rep.",
+      "ar": "تحكّم في أسفل العدّة."
+     },
+     "alt": {
+      "en": "Cable curl",
+      "ar": "باي كيرل بالكابل"
+     }
+    },
+    {
+     "id": "hammer",
+     "name": {
+      "en": "Seated hammer curl",
+      "ar": "هامر كيرل جالسًا"
+     },
+     "sets": 2,
+     "repMin": 10,
+     "repMax": 12,
+     "unit": "reps",
+     "perSide": false,
+     "rest": {
+      "en": "60–90 s",
+      "ar": "60–90 ث"
+     },
+     "rir": "2",
+     "tech": null,
+     "cue": {
+      "en": "Torso upright.",
+      "ar": "الجذع مفرود."
+     },
+     "alt": {
+      "en": "Cross-body hammer curl",
+      "ar": "هامر كيرل عبر الجسم"
+     }
+    }
+   ]
+  },
+  {
+   "id": "chest_a",
+   "shortName": {
+    "en": "Chest",
+    "ar": "صدر A"
+   },
+   "name": {
+    "en": "Chest A + Abs",
+    "ar": "صدر A + بطن"
+   },
+   "type": "T",
+   "cardio": 0,
+   "focus": {
+    "en": "Heavy chest, abs",
+    "ar": "صدر ثقيل، بطن"
+   },
+   "exercises": [
+    {
+     "id": "db_press",
+     "name": {
+      "en": "Flat dumbbell press",
+      "ar": "ضغط صدر مستوٍ بالدمبل"
+     },
+     "sets": 4,
+     "repMin": 6,
+     "repMax": 10,
+     "unit": "reps",
+     "perSide": false,
+     "rest": {
+      "en": "2–3 min",
+      "ar": "2–3 دقائق"
+     },
+     "rir": "2-3",
+     "tech": null,
+     "cue": {
+      "en": "Shoulder blades set, elbows 45–60°, 3-second lowering.",
+      "ar": "لوحا الكتف مثبتان، الكوعان 45–60°، انزل في 3 ثوانٍ."
+     },
+     "alt": {
+      "en": "Machine chest press",
+      "ar": "ضغط صدر على الجهاز"
+     }
+    },
+    {
+     "id": "inc_machine",
+     "name": {
+      "en": "Incline machine press",
+      "ar": "ضغط صدر عالي على الجهاز"
+     },
+     "sets": 3,
+     "repMin": 8,
+     "repMax": 12,
+     "unit": "reps",
+     "perSide": false,
+     "rest": {
+      "en": "2 min",
+      "ar": "دقيقتان"
+     },
+     "rir": "2-3",
+     "tech": null,
+     "cue": {
+      "en": "Press in a gentle arc.",
+      "ar": "ادفع في قوس خفيف."
+     },
+     "alt": {
+      "en": "30° incline DB press",
+      "ar": "ضغط صدر عالي بالدمبل 30°"
+     }
+    },
+    {
+     "id": "pec_deck",
+     "name": {
+      "en": "Pec deck",
+      "ar": "بيك دك (فراشة)"
+     },
+     "sets": 3,
+     "repMin": 10,
+     "repMax": 15,
+     "unit": "reps",
+     "perSide": false,
+     "rest": {
+      "en": "90 s",
+      "ar": "90 ث"
+     },
+     "rir": "2",
+     "tech": "RP",
+     "cue": {
+      "en": "Squeeze at the front, control the return.",
+      "ar": "اعصر في الأمام، وتحكّم في الرجوع."
+     },
+     "alt": {
+      "en": "Low-to-high cable fly",
+      "ar": "تفتيح كابل من أسفل لأعلى"
+     }
+    },
+    {
+     "id": "crossover",
+     "name": {
+      "en": "Cable crossover, high-to-low",
+      "ar": "كروس أوفر كابل من أعلى لأسفل"
+     },
+     "sets": 3,
+     "repMin": 12,
+     "repMax": 15,
+     "unit": "reps",
+     "perSide": false,
+     "rest": {
+      "en": "60–90 s",
+      "ar": "60–90 ث"
+     },
+     "rir": "2",
+     "tech": "DS",
+     "cue": {
+      "en": "Slight elbow bend, squeeze the chest.",
+      "ar": "ثني خفيف في الكوع، اعصر الصدر."
+     },
+     "alt": {
+      "en": "Pec deck",
+      "ar": "بيك دك (فراشة)"
+     }
+    },
+    {
+     "id": "cable_crunch",
+     "name": {
+      "en": "Kneeling cable crunch",
+      "ar": "كرانش بالكابل على الركبتين"
+     },
+     "sets": 3,
+     "repMin": 10,
+     "repMax": 15,
+     "unit": "reps",
+     "perSide": false,
+     "rest": {
+      "en": "90 s",
+      "ar": "90 ث"
+     },
+     "rir": "2",
+     "tech": null,
+     "cue": {
+      "en": "Hips fixed, round the trunk.",
+      "ar": "الحوض ثابت، قوّس الجذع."
+     },
+     "alt": {
+      "en": "Machine crunch",
+      "ar": "كرانش على الجهاز"
+     }
+    },
+    {
+     "id": "plank",
+     "name": {
+      "en": "Forearm plank",
+      "ar": "بلانك على الساعدين"
+     },
+     "sets": 3,
+     "repMin": 30,
+     "repMax": 45,
+     "unit": "sec",
+     "perSide": false,
+     "rest": {
+      "en": "60 s",
+      "ar": "60 ث"
+     },
+     "rir": "2",
+     "tech": null,
+     "cue": {
+      "en": "Ribs down, glutes on.",
+      "ar": "الضلوع لتحت، والجلوتس مشدودة."
+     },
+     "alt": {
+      "en": "Dead bug",
+      "ar": "ديد بج"
+     }
+    }
+   ]
+  },
+  {
+   "id": "rest_a",
+   "shortName": {
+    "en": "Rest",
+    "ar": "راحة"
+   },
+   "name": {
+    "en": "Rest day",
+    "ar": "يوم راحة"
+   },
+   "type": "R",
+   "cardio": 0,
+   "walk": {
+    "en": "30–40 min brisk incline walk",
+    "ar": "مشي سريع على منحدر 30–40 دقيقة"
+   },
+   "focus": {
+    "en": "Recovery",
+    "ar": "استشفاء"
+   },
+   "exercises": []
+  },
+  {
+   "id": "shoulders_triceps",
+   "shortName": {
+    "en": "Shoulders",
+    "ar": "أكتاف"
+   },
+   "name": {
+    "en": "Shoulders & Triceps + Abs",
+    "ar": "أكتاف وتراي + بطن"
+   },
+   "type": "T",
+   "cardio": 20,
+   "focus": {
+    "en": "Delts, triceps, abs",
+    "ar": "الأكتاف، الترايسبس، البطن"
+   },
+   "exercises": [
+    {
+     "id": "sh_press",
+     "name": {
+      "en": "Machine shoulder press",
+      "ar": "ضغط أكتاف على الجهاز"
+     },
+     "sets": 3,
+     "repMin": 8,
+     "repMax": 12,
+     "unit": "reps",
+     "perSide": false,
+     "rest": {
+      "en": "2 min",
+      "ar": "دقيقتان"
+     },
+     "rir": "2-3",
+     "tech": null,
+     "cue": {
+      "en": "Press slightly forward of the side plane.",
+      "ar": "ادفع لقدام قليلًا عن مستوى الجانب."
+     },
+     "alt": {
+      "en": "Seated DB press",
+      "ar": "ضغط أكتاف بالدمبل جالسًا"
+     }
+    },
+    {
+     "id": "lat_raise",
+     "name": {
+      "en": "Cable lateral raise",
+      "ar": "رفرفة جانبي بالكابل"
+     },
+     "sets": 4,
+     "repMin": 12,
+     "repMax": 15,
+     "unit": "reps",
+     "perSide": false,
+     "rest": {
+      "en": "60–90 s",
+      "ar": "60–90 ث"
+     },
+     "rir": "2",
+     "tech": "DS",
+     "cue": {
+      "en": "Raise to just below shoulder height, thumbs forward.",
+      "ar": "ارفع لحد تحت مستوى الكتف بقليل، والإبهام لقدام."
+     },
+     "alt": {
+      "en": "Machine lateral raise",
+      "ar": "رفرفة جانبي على الجهاز"
+     }
+    },
+    {
+     "id": "rear_deck",
+     "name": {
+      "en": "Reverse pec deck",
+      "ar": "بيك دك عكسي (كتف خلفي)"
+     },
+     "sets": 3,
+     "repMin": 12,
+     "repMax": 15,
+     "unit": "reps",
+     "perSide": false,
+     "rest": {
+      "en": "60–90 s",
+      "ar": "60–90 ث"
+     },
+     "rir": "2-3",
+     "tech": null,
+     "cue": {
+      "en": "Light weight, no shrug.",
+      "ar": "وزن خفيف، من غير رفع الكتفين."
+     },
+     "alt": {
+      "en": "Chest-supported DB rear-delt raise",
+      "ar": "رفرفة خلفي بالدمبل بسند الصدر"
+     }
+    },
+    {
+     "id": "pushdown",
+     "name": {
+      "en": "Rope pushdown",
+      "ar": "ترايسبس بوش داون بالحبل"
+     },
+     "sets": 3,
+     "repMin": 10,
+     "repMax": 15,
+     "unit": "reps",
+     "perSide": false,
+     "rest": {
+      "en": "90 s",
+      "ar": "90 ث"
+     },
+     "rir": "2",
+     "tech": "DS",
+     "cue": {
+      "en": "Elbows pinned.",
+      "ar": "الكوعان ثابتان."
+     },
+     "alt": {
+      "en": "Straight-bar pushdown",
+      "ar": "بوش داون بالبار المستقيم"
+     }
+    },
+    {
+     "id": "tri_ext",
+     "name": {
+      "en": "Seated machine triceps extension",
+      "ar": "مد ترايسبس على الجهاز جالسًا"
+     },
+     "sets": 3,
+     "repMin": 10,
+     "repMax": 12,
+     "unit": "reps",
+     "perSide": false,
+     "rest": {
+      "en": "90 s",
+      "ar": "90 ث"
+     },
+     "rir": "2",
+     "tech": null,
+     "cue": {
+      "en": "Full control.",
+      "ar": "تحكّم كامل."
+     },
+     "alt": {
+      "en": "Overhead cable extension",
+      "ar": "مد ترايسبس بالكابل فوق الرأس"
+     }
+    },
+    {
+     "id": "mach_crunch",
+     "name": {
+      "en": "Machine crunch",
+      "ar": "كرانش على الجهاز"
+     },
+     "sets": 3,
+     "repMin": 12,
+     "repMax": 15,
+     "unit": "reps",
+     "perSide": false,
+     "rest": {
+      "en": "60–90 s",
+      "ar": "60–90 ث"
+     },
+     "rir": "2",
+     "tech": null,
+     "cue": {
+      "en": "Round the trunk, don’t push with the legs.",
+      "ar": "قوّس الجذع، ومتدفعش برجليك."
+     },
+     "alt": {
+      "en": "Cable crunch",
+      "ar": "كرانش بالكابل"
+     }
+    },
+    {
+     "id": "pallof",
+     "name": {
+      "en": "Pallof press",
+      "ar": "بالوف برس"
+     },
+     "sets": 2,
+     "repMin": 10,
+     "repMax": 12,
+     "unit": "reps",
+     "perSide": true,
+     "rest": {
+      "en": "60 s",
+      "ar": "60 ث"
+     },
+     "rir": "2",
+     "tech": null,
+     "cue": {
+      "en": "Resist rotation.",
+      "ar": "قاوم الدوران."
+     },
+     "alt": {
+      "en": "Dead bug",
+      "ar": "ديد بج"
+     }
+    }
+   ]
+  },
+  {
+   "id": "rest_b",
+   "shortName": {
+    "en": "Rest",
+    "ar": "راحة"
+   },
+   "name": {
+    "en": "Rest day",
+    "ar": "يوم راحة"
+   },
+   "type": "R",
+   "cardio": 0,
+   "walk": {
+    "en": "30–40 min brisk incline walk",
+    "ar": "مشي سريع على منحدر 30–40 دقيقة"
+   },
+   "focus": {
+    "en": "Recovery",
+    "ar": "استشفاء"
+   },
+   "exercises": []
+  },
+  {
+   "id": "chest_b",
+   "shortName": {
+    "en": "Chest",
+    "ar": "صدر B"
+   },
+   "name": {
+    "en": "Chest B + Abs",
+    "ar": "صدر B + بطن"
+   },
+   "type": "T",
+   "cardio": 0,
+   "focus": {
+    "en": "Volume chest, abs",
+    "ar": "صدر بحجم تدريبي عالي، بطن"
+   },
+   "exercises": [
+    {
+     "id": "inc_db",
+     "name": {
+      "en": "Incline dumbbell press, 30°",
+      "ar": "ضغط صدر عالي بالدمبل، 30°"
+     },
+     "sets": 4,
+     "repMin": 8,
+     "repMax": 12,
+     "unit": "reps",
+     "perSide": false,
+     "rest": {
+      "en": "2–3 min",
+      "ar": "2–3 دقائق"
+     },
+     "rir": "2-3",
+     "tech": null,
+     "cue": {
+      "en": "3-second lowering.",
+      "ar": "انزل في 3 ثوانٍ."
+     },
+     "alt": {
+      "en": "Incline machine press",
+      "ar": "ضغط صدر عالي على الجهاز"
+     }
+    },
+    {
+     "id": "mach_chest",
+     "name": {
+      "en": "Machine chest press",
+      "ar": "ضغط صدر على الجهاز"
+     },
+     "sets": 3,
+     "repMin": 10,
+     "repMax": 12,
+     "unit": "reps",
+     "perSide": false,
+     "rest": {
+      "en": "2 min",
+      "ar": "دقيقتان"
+     },
+     "rir": "2",
+     "tech": null,
+     "cue": {
+      "en": "Shoulders down, blades set.",
+      "ar": "الكتفان لتحت، ولوحا الكتف مثبتان."
+     },
+     "alt": {
+      "en": "Flat DB press",
+      "ar": "ضغط صدر مستوٍ بالدمبل"
+     }
+    },
+    {
+     "id": "mid_fly",
+     "name": {
+      "en": "Mid-height cable fly",
+      "ar": "تفتيح كابل من المنتصف"
+     },
+     "sets": 3,
+     "repMin": 12,
+     "repMax": 15,
+     "unit": "reps",
+     "perSide": false,
+     "rest": {
+      "en": "90 s",
+      "ar": "90 ث"
+     },
+     "rir": "2",
+     "tech": "RP",
+     "cue": {
+      "en": "Slight elbow bend.",
+      "ar": "ثني خفيف في الكوع."
+     },
+     "alt": {
+      "en": "Pec deck",
+      "ar": "بيك دك (فراشة)"
+     }
+    },
+    {
+     "id": "rev_crunch",
+     "name": {
+      "en": "Reverse crunch on a bench",
+      "ar": "كرانش عكسي على البنش"
+     },
+     "sets": 3,
+     "repMin": 10,
+     "repMax": 15,
+     "unit": "reps",
+     "perSide": false,
+     "rest": {
+      "en": "60–90 s",
+      "ar": "60–90 ث"
+     },
+     "rir": "2",
+     "tech": null,
+     "cue": {
+      "en": "Curl the pelvis up slowly.",
+      "ar": "ارفع الحوض لفوق ببطء."
+     },
+     "alt": {
+      "en": "Captain’s chair knee raise",
+      "ar": "رفع الركبتين على كرسي الكابتن"
+     }
+    },
+    {
+     "id": "plank_tap",
+     "name": {
+      "en": "Plank with shoulder taps",
+      "ar": "بلانك مع لمس الكتف"
+     },
+     "sets": 2,
+     "repMin": 30,
+     "repMax": 40,
+     "unit": "sec",
+     "perSide": false,
+     "rest": {
+      "en": "60 s",
+      "ar": "60 ث"
+     },
+     "rir": "2",
+     "tech": null,
+     "cue": {
+      "en": "Hips level.",
+      "ar": "الحوض مستوٍ."
+     },
+     "alt": {
+      "en": "Dead bug",
+      "ar": "ديد بج"
+     }
+    }
+   ]
+  }
+ ],
+ "menus": [
+  {
+   "type": "T",
+   "meals": [
+    {
+     "id": "d0_m0",
+     "title": {
+      "en": "Ful, eggs & baladi bread",
+      "ar": "فول وبيض وعيش بلدي"
+     },
+     "swap": {
+      "en": "Swap ful for 300 g lentil soup (شوربة عدس), or the eggs for 150 g qarish.",
+      "ar": "بدّل الفول بـ 300 جم شوربة عدس، أو البيض بـ 150 جم جبنة قريش."
+     },
+     "items": [
+      {
+       "food": "ful",
+       "qty": 200
+      },
+      {
+       "food": "egg",
+       "qty": 2
+      },
+      {
+       "food": "bread",
+       "qty": 1.5
+      },
+      {
+       "food": "qarish",
+       "qty": 50
+      },
+      {
+       "food": "salad",
+       "qty": 150
+      },
+      {
+       "food": "oil",
+       "qty": 1
+      },
+      {
+       "food": "orange",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "id": "d0_m1",
+     "title": {
+      "en": "Grilled chicken, rice & okra",
+      "ar": "فراخ مشوية ورز وبامية"
+     },
+     "swap": {
+      "en": "Swap chicken for lean kofta or 180 g drained tuna. Swap okra for any cooked vegetable.",
+      "ar": "بدّل الفراخ بكفتة قليلة الدهن أو 180 جم تونة مصفّاة. بدّل البامية بأي خضار مطبوخ."
+     },
+     "items": [
+      {
+       "food": "chicken",
+       "qty": 190
+      },
+      {
+       "food": "rice",
+       "qty": 300
+      },
+      {
+       "food": "bamia",
+       "qty": 200
+      },
+      {
+       "food": "oil",
+       "qty": 1
+      },
+      {
+       "food": "banana",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "id": "d0_m2",
+     "title": {
+      "en": "Grilled bolti, potatoes & yogurt",
+      "ar": "بلطي مشوي وبطاطس وزبادي"
+     },
+     "swap": {
+      "en": "Swap bolti for sardines or shrimp. Swap potatoes for 300 g cooked rice.",
+      "ar": "بدّل البلطي بسردين أو جمبري. بدّل البطاطس بـ 300 جم رز مطبوخ."
+     },
+     "items": [
+      {
+       "food": "bolti",
+       "qty": 200
+      },
+      {
+       "food": "potato",
+       "qty": 400
+      },
+      {
+       "food": "bread",
+       "qty": 1
+      },
+      {
+       "food": "salad",
+       "qty": 200
+      },
+      {
+       "food": "oil",
+       "qty": 1
+      },
+      {
+       "food": "greek",
+       "qty": 100
+      },
+      {
+       "food": "dates",
+       "qty": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "T",
+   "meals": [
+    {
+     "id": "d1_m0",
+     "title": {
+      "en": "Oats, eggs & banana",
+      "ar": "شوفان وبيض وموز"
+     },
+     "swap": {
+      "en": "Swap milk for 250 g Greek yogurt. Swap walnuts for almonds.",
+      "ar": "بدّل اللبن بـ 250 جم زبادي يوناني. بدّل عين الجمل بلوز."
+     },
+     "items": [
+      {
+       "food": "oats",
+       "qty": 100
+      },
+      {
+       "food": "milk",
+       "qty": 300
+      },
+      {
+       "food": "egg",
+       "qty": 2
+      },
+      {
+       "food": "banana",
+       "qty": 1
+      },
+      {
+       "food": "walnut",
+       "qty": 15
+      },
+      {
+       "food": "dates",
+       "qty": 3
+      }
+     ]
+    },
+    {
+     "id": "d1_m1",
+     "title": {
+      "en": "Lean kofta, rice & salad",
+      "ar": "كفتة قليلة الدهن ورز وسلطة"
+     },
+     "swap": {
+      "en": "Swap kofta for grilled chicken. Swap rice for 300 g cooked pasta.",
+      "ar": "بدّل الكفتة بفراخ مشوية. بدّل الرز بـ 300 جم مكرونة مسلوقة."
+     },
+     "items": [
+      {
+       "food": "beef",
+       "qty": 220
+      },
+      {
+       "food": "rice",
+       "qty": 350
+      },
+      {
+       "food": "salad",
+       "qty": 200
+      },
+      {
+       "food": "tahini",
+       "qty": 1
+      },
+      {
+       "food": "orange",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "id": "d1_m2",
+     "title": {
+      "en": "Tuna baladi plate",
+      "ar": "طبق تونة بالعيش البلدي"
+     },
+     "swap": {
+      "en": "Swap tuna for 3 boiled eggs plus 100 g qarish.",
+      "ar": "بدّل التونة بـ 3 بيضات مسلوقة و100 جم جبنة قريش."
+     },
+     "items": [
+      {
+       "food": "tuna",
+       "qty": 160
+      },
+      {
+       "food": "bread",
+       "qty": 2
+      },
+      {
+       "food": "salad",
+       "qty": 200
+      },
+      {
+       "food": "oil",
+       "qty": 1
+      },
+      {
+       "food": "qarish",
+       "qty": 100
+      },
+      {
+       "food": "apple",
+       "qty": 1
+      },
+      {
+       "food": "dates",
+       "qty": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "T",
+   "meals": [
+    {
+     "id": "d2_m0",
+     "title": {
+      "en": "Eggs, qarish & baladi bread",
+      "ar": "بيض وجبنة قريش وعيش بلدي"
+     },
+     "swap": {
+      "en": "Swap eggs for 200 g ful. Swap the guava for any fruit.",
+      "ar": "بدّل البيض بـ 200 جم فول. بدّل الجوافة بأي فاكهة."
+     },
+     "items": [
+      {
+       "food": "egg",
+       "qty": 3
+      },
+      {
+       "food": "bread",
+       "qty": 2.5
+      },
+      {
+       "food": "qarish",
+       "qty": 50
+      },
+      {
+       "food": "salad",
+       "qty": 150
+      },
+      {
+       "food": "oil",
+       "qty": 1
+      },
+      {
+       "food": "guava",
+       "qty": 1
+      },
+      {
+       "food": "banana",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "id": "d2_m1",
+     "title": {
+      "en": "Chicken pasta & salad",
+      "ar": "مكرونة بالفراخ وسلطة"
+     },
+     "swap": {
+      "en": "Swap pasta for 300 g cooked rice. Swap chicken for lean kofta.",
+      "ar": "بدّل المكرونة بـ 300 جم رز مطبوخ. بدّل الفراخ بكفتة قليلة الدهن."
+     },
+     "items": [
+      {
+       "food": "chicken",
+       "qty": 190
+      },
+      {
+       "food": "pasta",
+       "qty": 330
+      },
+      {
+       "food": "salad",
+       "qty": 200
+      },
+      {
+       "food": "oil",
+       "qty": 1
+      },
+      {
+       "food": "apple",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "id": "d2_m2",
+     "title": {
+      "en": "Grilled sardines, sweet potato & yogurt",
+      "ar": "سردين مشوي وبطاطا وزبادي"
+     },
+     "swap": {
+      "en": "Swap sardines for bolti. Swap sweet potato for 300 g boiled potato.",
+      "ar": "بدّل السردين ببلطي. بدّل البطاطا بـ 300 جم بطاطس مسلوقة."
+     },
+     "items": [
+      {
+       "food": "sardine",
+       "qty": 200
+      },
+      {
+       "food": "batata",
+       "qty": 350
+      },
+      {
+       "food": "salad",
+       "qty": 200
+      },
+      {
+       "food": "oil",
+       "qty": 1
+      },
+      {
+       "food": "greek",
+       "qty": 100
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "R",
+   "meals": [
+    {
+     "id": "d3_m0",
+     "title": {
+      "en": "Greek yogurt, oats & nuts",
+      "ar": "زبادي يوناني وشوفان ومكسرات"
+     },
+     "swap": {
+      "en": "Swap yogurt for 200 g qarish with a little honey.",
+      "ar": "بدّل الزبادي بـ 200 جم جبنة قريش مع شوية عسل."
+     },
+     "items": [
+      {
+       "food": "greek",
+       "qty": 200
+      },
+      {
+       "food": "oats",
+       "qty": 80
+      },
+      {
+       "food": "banana",
+       "qty": 1
+      },
+      {
+       "food": "walnut",
+       "qty": 25
+      },
+      {
+       "food": "egg",
+       "qty": 2
+      }
+     ]
+    },
+    {
+     "id": "d3_m1",
+     "title": {
+      "en": "Chicken, rice & cooked vegetables",
+      "ar": "فراخ ورز وخضار مطبوخ"
+     },
+     "swap": {
+      "en": "Swap chicken for lean kofta or tuna.",
+      "ar": "بدّل الفراخ بكفتة قليلة الدهن أو تونة."
+     },
+     "items": [
+      {
+       "food": "chicken",
+       "qty": 190
+      },
+      {
+       "food": "rice",
+       "qty": 300
+      },
+      {
+       "food": "veg",
+       "qty": 250
+      },
+      {
+       "food": "oil",
+       "qty": 1
+      },
+      {
+       "food": "orange",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "id": "d3_m2",
+     "title": {
+      "en": "Bolti, potatoes & baladi bread",
+      "ar": "بلطي وبطاطس وعيش بلدي"
+     },
+     "swap": {
+      "en": "Swap bolti for shrimp. Swap potatoes for 200 g cooked lentils.",
+      "ar": "بدّل البلطي بجمبري. بدّل البطاطس بـ 200 جم عدس مطبوخ."
+     },
+     "items": [
+      {
+       "food": "bolti",
+       "qty": 220
+      },
+      {
+       "food": "potato",
+       "qty": 300
+      },
+      {
+       "food": "bread",
+       "qty": 1.5
+      },
+      {
+       "food": "salad",
+       "qty": 200
+      },
+      {
+       "food": "oil",
+       "qty": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "T",
+   "meals": [
+    {
+     "id": "d4_m0",
+     "title": {
+      "en": "Ful, tahini & eggs",
+      "ar": "فول بالطحينة وبيض"
+     },
+     "swap": {
+      "en": "Swap eggs for 150 g qarish. Swap the orange for any fruit.",
+      "ar": "بدّل البيض بـ 150 جم جبنة قريش. بدّل البرتقان بأي فاكهة."
+     },
+     "items": [
+      {
+       "food": "ful",
+       "qty": 200
+      },
+      {
+       "food": "egg",
+       "qty": 2
+      },
+      {
+       "food": "bread",
+       "qty": 1.5
+      },
+      {
+       "food": "tahini",
+       "qty": 1
+      },
+      {
+       "food": "salad",
+       "qty": 150
+      },
+      {
+       "food": "orange",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "id": "d4_m1",
+     "title": {
+      "en": "Chicken molokhia & rice",
+      "ar": "ملوخية بالفراخ ورز"
+     },
+     "swap": {
+      "en": "Swap chicken for lean beef or tuna. Swap molokhia for okra.",
+      "ar": "بدّل الفراخ بلحمة بتلو أو تونة. بدّل الملوخية ببامية."
+     },
+     "items": [
+      {
+       "food": "chicken",
+       "qty": 190
+      },
+      {
+       "food": "rice",
+       "qty": 320
+      },
+      {
+       "food": "molokhia",
+       "qty": 250
+      },
+      {
+       "food": "banana",
+       "qty": 1
+      },
+      {
+       "food": "oil",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "id": "d4_m2",
+     "title": {
+      "en": "Grilled mackerel & lentils",
+      "ar": "ماكريل مشوي وعدس"
+     },
+     "swap": {
+      "en": "Swap mackerel for sardines or bolti. Swap lentils for white rice.",
+      "ar": "بدّل الماكريل بسردين أو بلطي. بدّل العدس برز أبيض."
+     },
+     "items": [
+      {
+       "food": "mackerel",
+       "qty": 150
+      },
+      {
+       "food": "lentil",
+       "qty": 250
+      },
+      {
+       "food": "bread",
+       "qty": 1
+      },
+      {
+       "food": "salad",
+       "qty": 200
+      },
+      {
+       "food": "oil",
+       "qty": 1
+      },
+      {
+       "food": "dates",
+       "qty": 3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "R",
+   "meals": [
+    {
+     "id": "d5_m0",
+     "title": {
+      "en": "Eggs, ful & baladi bread",
+      "ar": "بيض وفول وعيش بلدي"
+     },
+     "swap": {
+      "en": "Swap ful for 150 g qarish.",
+      "ar": "بدّل الفول بـ 150 جم جبنة قريش."
+     },
+     "items": [
+      {
+       "food": "egg",
+       "qty": 3
+      },
+      {
+       "food": "ful",
+       "qty": 150
+      },
+      {
+       "food": "bread",
+       "qty": 1
+      },
+      {
+       "food": "salad",
+       "qty": 150
+      },
+      {
+       "food": "oil",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "id": "d5_m1",
+     "title": {
+      "en": "Lean kofta, potatoes & vegetables",
+      "ar": "كفتة قليلة الدهن وبطاطس وخضار"
+     },
+     "swap": {
+      "en": "Swap kofta for grilled chicken.",
+      "ar": "بدّل الكفتة بفراخ مشوية."
+     },
+     "items": [
+      {
+       "food": "beef",
+       "qty": 190
+      },
+      {
+       "food": "potato",
+       "qty": 400
+      },
+      {
+       "food": "veg",
+       "qty": 250
+      },
+      {
+       "food": "oil",
+       "qty": 1
+      },
+      {
+       "food": "orange",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "id": "d5_m2",
+     "title": {
+      "en": "Tuna & chickpea salad",
+      "ar": "سلطة تونة بالحمص"
+     },
+     "swap": {
+      "en": "Swap tuna for 250 g shrimp.",
+      "ar": "بدّل التونة بـ 250 جم جمبري."
+     },
+     "items": [
+      {
+       "food": "tuna",
+       "qty": 160
+      },
+      {
+       "food": "chickpea",
+       "qty": 150
+      },
+      {
+       "food": "bread",
+       "qty": 1.5
+      },
+      {
+       "food": "salad",
+       "qty": 250
+      },
+      {
+       "food": "oil",
+       "qty": 1
+      },
+      {
+       "food": "qarish",
+       "qty": 70
+      },
+      {
+       "food": "banana",
+       "qty": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "T",
+   "meals": [
+    {
+     "id": "d6_m0",
+     "title": {
+      "en": "Yogurt-oats bowl & eggs",
+      "ar": "بول زبادي بالشوفان وبيض"
+     },
+     "swap": {
+      "en": "Swap eggs for 100 g qarish.",
+      "ar": "بدّل البيض بـ 100 جم جبنة قريش."
+     },
+     "items": [
+      {
+       "food": "greek",
+       "qty": 200
+      },
+      {
+       "food": "oats",
+       "qty": 100
+      },
+      {
+       "food": "banana",
+       "qty": 1
+      },
+      {
+       "food": "walnut",
+       "qty": 15
+      },
+      {
+       "food": "egg",
+       "qty": 2
+      },
+      {
+       "food": "dates",
+       "qty": 3
+      }
+     ]
+    },
+    {
+     "id": "d6_m1",
+     "title": {
+      "en": "Lean kofta, bulgur & vegetables",
+      "ar": "كفتة قليلة الدهن وبرغل وخضار"
+     },
+     "swap": {
+      "en": "Swap bulgur for 300 g cooked rice.",
+      "ar": "بدّل البرغل بـ 300 جم رز مطبوخ."
+     },
+     "items": [
+      {
+       "food": "beef",
+       "qty": 190
+      },
+      {
+       "food": "bulgur",
+       "qty": 450
+      },
+      {
+       "food": "veg",
+       "qty": 200
+      },
+      {
+       "food": "oil",
+       "qty": 1
+      },
+      {
+       "food": "orange",
+       "qty": 1
+      },
+      {
+       "food": "banana",
+       "qty": 1
+      }
+     ]
+    },
+    {
+     "id": "d6_m2",
+     "title": {
+      "en": "Shrimp, rice & chickpeas",
+      "ar": "جمبري ورز وحمص"
+     },
+     "swap": {
+      "en": "Swap shrimp for bolti or 180 g tuna.",
+      "ar": "بدّل الجمبري ببلطي أو 180 جم تونة."
+     },
+     "items": [
+      {
+       "food": "shrimp",
+       "qty": 220
+      },
+      {
+       "food": "rice",
+       "qty": 350
+      },
+      {
+       "food": "chickpea",
+       "qty": 100
+      },
+      {
+       "food": "salad",
+       "qty": 200
+      },
+      {
+       "food": "oil",
+       "qty": 1
+      },
+      {
+       "food": "greek",
+       "qty": 100
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "tips": [
+  {
+   "en": "Grill or bake. Skip frying, and measure oil with a spoon (1 tablespoon is about 13 g).",
+   "ar": "اشوي أو اخبز في الفرن. ابعد عن القلي، وقيس الزيت بالمعلقة (معلقة الأكل حوالي 13 جم)."
+  },
+  {
+   "en": "Weigh meat and fish raw. Weigh rice, pasta, legumes and potatoes cooked. 100 g raw rice makes about 280 g cooked.",
+   "ar": "وزّن اللحوم والسمك نيّة. وزّن الرز والمكرونة والبقوليات والبطاطس بعد الطبخ. 100 جم رز نيّ بيطلعوا حوالي 280 جم مطبوخ."
+  },
+  {
+   "en": "A baladi loaf here is about 90 g. If yours is bigger, use half.",
+   "ar": "الرغيف البلدي هنا حوالي 90 جم. لو رغيفك أكبر، استخدم نصه."
+  },
+  {
+   "en": "Ask the butcher for lean beef or lean minced kofta with no added fat.",
+   "ar": "اطلب من الجزار لحمة بتلو صافية أو كفتة مفرومة قليلة الدهن من غير دهن زيادة."
+  },
+  {
+   "en": "Fish appears in 5 meals a week. Keep at least 2, and swap the rest for chicken or lean kofta if you prefer.",
+   "ar": "السمك موجود في 5 وجبات في الأسبوع. خلّي على الأقل وجبتين، وبدّل الباقي بفراخ أو كفتة قليلة الدهن لو تحب."
+  },
+  {
+   "en": "Tea and coffee are fine. Keep sugar to 1 teaspoon or less. Skip soft drinks, juice boxes, sweets and alcohol.",
+   "ar": "الشاي والقهوة مفيش مشكلة. السكر معلقة شاي واحدة أو أقل. ابعد عن المياه الغازية والعصاير المعلبة والحلويات والكحول."
+  },
+  {
+   "en": "If you miss protein, add 1 scoop of whey (about 24 g protein) or 150 g qarish.",
+   "ar": "لو البروتين ناقص، زوّد سكوب واي (حوالي 24 جم بروتين) أو 150 جم جبنة قريش."
+  },
+  {
+   "en": "Drink 3–3.5 L of water a day, and aim for 7–9 hours of sleep.",
+   "ar": "اشرب 3–3.5 لتر مية في اليوم، وحاول تنام 7–9 ساعات."
+  }
+ ],
+ "rules": [
+  {
+   "en": "Add reps first. When you reach the top of the range on every set with good form, add 2.5–5% weight and start again at the bottom of the range.",
+   "ar": "زوّد العدّات الأول. لما توصل لأعلى المدى في كل المجموعات بأداء سليم، زوّد الوزن 2.5–5% وارجع ابدأ من أسفل المدى."
+  },
+  {
+   "en": "Stop most sets with 2–3 reps left in the tank (RIR). Use 1–2 RIR only on isolation work and last sets. Week 1 is 3 RIR everywhere.",
+   "ar": "وقّف أغلب المجموعات وأنت لسه قادر على 2–3 عدّات (RIR). استخدم 1–2 RIR بس في تمارين العزل وآخر المجموعات. الأسبوع 1 كله RIR 3."
+  },
+  {
+   "en": "Lower every rep for about 3 seconds and control the lift. No bouncing.",
+   "ar": "انزل في كل عدّة في حوالي 3 ثوانٍ وتحكّم في الرفع. من غير ارتداد."
+  },
+  {
+   "en": "Drop set (DS): last set to 0–1 RIR, cut the weight 20–25% straight away, 6–10 more reps.",
+   "ar": "دروب سِت (DS): آخر مجموعة لحد 0–1 عدّة متبقية، قلّل الوزن 20–25% فورًا، وكمّل 6–10 عدّات زيادة."
+  },
+  {
+   "en": "Rest-pause (RP): last set to 1 RIR, rest 15–20 s, 3–5 reps, rest 15–20 s, 2–4 reps.",
+   "ar": "ريست-بوز (RP): آخر مجموعة لحد عدّة واحدة متبقية، ارتاح 15–20 ث، 3–5 عدّات، ارتاح 15–20 ث، 2–4 عدّات."
+  },
+  {
+   "en": "Deload week: about half the sets, same weights, 3–4 RIR.",
+   "ar": "أسبوع التخفيف: حوالي نص المجموعات، بنفس الأوزان، مع ترك 3–4 عدّات."
+  },
+  {
+   "en": "If your reps drop for 2 sessions in a row, remove one set from each exercise for a week.",
+   "ar": "لو عدّاتك قلّت تمرينين ورا بعض، شيل مجموعة من كل تمرين لمدة أسبوع."
+  },
+  {
+   "en": "Keep the core lifts. Swap an exercise for its listed alternative every 4–6 weeks, or when a machine is busy.",
+   "ar": "حافظ على التمارين الأساسية. بدّل التمرين بالبديل المكتوب كل 4–6 أسابيع، أو لما الجهاز يكون مشغول."
+  }
+ ],
+ "phases": {
+  "before": {
+   "title": {
+    "en": "Before start",
+    "ar": "قبل البداية"
+   },
+   "desc": {
+    "en": "The program starts {date}.",
+    "ar": "البرنامج يبدأ {date}."
+   }
+  },
+  "straight": {
+   "title": {
+    "en": "Straight sets",
+    "ar": "مجموعات عادية"
+   },
+   "desc": {
+    "en": "Week 1: straight sets at 3 RIR. Find your working weights.",
+    "ar": "الأسبوع 1: مجموعات عادية مع ترك 3 عدّات (RIR 3). حدّد أوزان الشغل بتاعتك."
+   }
+  },
+  "intensity": {
+   "title": {
+    "en": "Intensity on",
+    "ar": "تكثيف"
+   },
+   "desc": {
+    "en": "Add the drop set (DS) or rest-pause (RP) marked on the last set of those exercises.",
+    "ar": "أضف الدروب سِت (DS) أو الريست-بوز (RP) المحدد في آخر مجموعة من التمارين دي."
+   }
+  },
+  "deload": {
+   "title": {
+    "en": "Deload",
+    "ar": "أسبوع تخفيف"
+   },
+   "desc": {
+    "en": "Deload week: about half the sets, same weights, 3–4 RIR.",
+    "ar": "أسبوع تخفيف (ديلود): حوالي نص المجموعات، بنفس الأوزان، مع ترك 3–4 عدّات."
+   }
+  },
+  "final": {
+   "title": {
+    "en": "Final week",
+    "ar": "الأسبوع الأخير"
+   },
+   "desc": {
+    "en": "Push hard, then re-test InBody (same time of day, fasted).",
+    "ar": "اضغط بقوة، وبعدها أعد قياس InBody (نفس الميعاد من اليوم، وأنت صايم)."
+   }
+  },
+  "complete": {
+   "title": {
+    "en": "Block complete",
+    "ar": "انتهت الدورة"
+   },
+   "desc": {
+    "en": "12 weeks done. Re-test InBody and send me the result to plan the next block.",
+    "ar": "خلّصت 12 أسبوع. أعد قياس InBody وابعتلي النتيجة عشان نخطط للدورة الجاية."
+   }
+  }
+ },
+ "techniques": {
+  "DS": {
+   "chip": {
+    "en": "Drop set on last set",
+    "ar": "دروب سِت في آخر مجموعة"
+   },
+   "tip": {
+    "en": "Drop set: last set to 0–1 RIR, cut the weight 20–25% straight away, 6–10 more reps.",
+    "ar": "دروب سِت: آخر مجموعة لحد 0–1 عدّة متبقية، قلّل الوزن 20–25% فورًا، وكمّل 6–10 عدّات زيادة."
+   }
+  },
+  "RP": {
+   "chip": {
+    "en": "Rest-pause on last set",
+    "ar": "ريست-بوز في آخر مجموعة"
+   },
+   "tip": {
+    "en": "Rest-pause: last set to 1 RIR, rest 15–20 s, 3–5 reps, rest again, 2–4 reps.",
+    "ar": "ريست-بوز: آخر مجموعة لحد عدّة واحدة متبقية، ارتاح 15–20 ث، 3–5 عدّات، ارتاح تاني، 2–4 عدّات."
+   }
+  }
+ },
+ "texts": {
+  "warmup": {
+   "en": "Warm-up (5–10 min): 5 min easy bike or walk, a few light mobility reps for the area you train, then 1–2 ramp-up sets of the first exercise. Lower each rep for about 3 seconds.",
+   "ar": "إحماء (5–10 دقائق): 5 دقائق عجلة أو مشي خفيف، شوية حركات مرونة خفيفة للعضلة اللي هتتمرنها، وبعدين 1–2 مجموعة تمهيدية لأول تمرين. انزل في كل عدّة في حوالي 3 ثوانٍ."
+  },
+  "restDay": {
+   "en": "{walk} and 8,000–10,000 steps. Stay relaxed, eat the plan, and sleep 7–9 hours. Muscle is built during recovery.",
+   "ar": "{walk} و8,000–10,000 خطوة. خليك مرتاح، كُل حسب الخطة، ونام 7–9 ساعات. العضل بيتبني وقت الراحة."
+  },
+  "cardio": {
+   "en": "Target {min} min on the treadmill (walking, incline allowed) or a stationary bike, at a pace where you can still talk. Add 1–2 min per week.",
+   "ar": "الهدف {min} دقيقة على المشاية (مشي، مع منحدر لو حابب) أو العجلة الثابتة، بسرعة تقدر تتكلم فيها. زوّد 1–2 دقيقة كل أسبوع."
+  },
+  "walk": {
+   "en": "30–40 min on an incline treadmill or outdoors, steady pace.",
+   "ar": "30–40 دقيقة على مشاية بمنحدر أو في الشارع، بسرعة ثابتة."
+  },
+  "walkShort": {
+   "en": "30–40 min brisk walk",
+   "ar": "مشي سريع 30–40 دقيقة"
+  },
+  "blockNote": {
+   "en": "Week 1 is straight sets, weeks 2–5 and 7–11 add drop sets and rest-pause, week 6 is a deload, week 12 is the final push before the InBody re-test.",
+   "ar": "الأسبوع 1 مجموعات عادية، الأسابيع 2–5 و7–11 فيها دروب سِت وريست-بوز، الأسبوع 6 تخفيف، والأسبوع 12 هو الدفعة الأخيرة قبل إعادة قياس InBody."
+  },
+  "cycleNote": {
+   "en": "Chest is trained twice (Sunday and Thursday), abs three times (Sunday, Tuesday, Thursday), and legs once with extra volume.",
+   "ar": "الصدر بيتمرن مرتين (الأحد والخميس)، والبطن 3 مرات (الأحد والثلاثاء والخميس)، والأرجل مرة واحدة بحجم تدريبي أكبر."
+  },
+  "nutritionNote": {
+   "en": "Based on an estimated maintenance of about 2,900 kcal (basal metabolic rate × 1.5). Aim for +0.10–0.25 kg a week and adjust by 150 kcal as the Progress tab suggests.",
+   "ar": "محسوبة على احتياج ثبات تقديري حوالي 2,900 سعر (معدل الأيض الأساسي × 1.5). الهدف زيادة 0.10–0.25 كجم في الأسبوع، وعدّل بـ 150 سعر حسب اقتراح شاشة التقدم."
+  },
+  "menuIntro": {
+   "en": "Three meals a day with foods from any Egyptian market. Same menu every week. Pick a day.",
+   "ar": "3 وجبات في اليوم من أكل موجود في أي سوق مصري. نفس المنيو كل أسبوع. اختار يوم."
+  },
+  "shoppingNote": {
+   "en": "Totals for all seven days. Meat and fish are raw weights. Rice, pasta, legumes, potatoes and vegetables are cooked weights.",
+   "ar": "الإجمالي للسبع أيام. اللحوم والسمك بالوزن النيّ. الرز والمكرونة والبقوليات والبطاطس والخضار بالوزن المطبوخ."
+  },
+  "adjustNote": {
+   "en": "The adjustment changes your training-day calorie target. For +150 kcal add about 115 g cooked rice or 1.5 baladi loaves; for −150 remove the same.",
+   "ar": "التعديل بيغيّر هدف السعرات في أيام التمرين. لـ +150 سعر زوّد حوالي 115 جم رز مطبوخ أو رغيف ونص عيش بلدي؛ ولـ −150 شيل نفس الكمية."
+  },
+  "inbodyRetest": {
+   "en": "Scan of {scanDate} ({device}). Re-test between {from} and {to}, same time of day, fasted, after using the bathroom, with no training in the previous 12 hours.",
+   "ar": "قياس يوم {scanDate} ({device}). أعد القياس بين {from} و{to}، في نفس الميعاد من اليوم، وأنت صايم، بعد دخول الحمام، ومن غير تمرين في الـ 12 ساعة اللي قبلها."
+  },
+  "disclaimer": {
+   "en": "General guidance only. This is not medical advice. Check with a doctor or registered dietitian before changing your diet or training, especially if you have a health condition.",
+   "ar": "إرشادات عامة فقط، وليست نصيحة طبية. استشر طبيب أو أخصائي تغذية قبل ما تغيّر أكلك أو تمرينك، خصوصًا لو عندك أي مشكلة صحية."
+  }
+ },
+ "notifications": {
+  "weighIn": {
+   "title": {
+    "en": "Morning weigh-in",
+    "ar": "وزن الصبح"
+   },
+   "body": {
+    "en": "Weigh yourself after the bathroom, before eating, and log it.",
+    "ar": "وزّن نفسك بعد الحمام وقبل الأكل، وسجّل الوزن."
+   }
+  },
+  "workout": {
+   "title": {
+    "en": "Workout time: {session}",
+    "ar": "ميعاد التمرين: {session}"
+   },
+   "body": {
+    "en": "Warm up, then follow today's sets. Log each set as you go.",
+    "ar": "اعمل إحماء، وبعدين امشي على مجموعات النهارده. سجّل كل مجموعة أول بأول."
+   }
+  },
+  "meal": {
+   "title": {
+    "en": "Meal {n}: {meal}",
+    "ar": "الوجبة {n}: {meal}"
+   },
+   "body": {
+    "en": "Tap to see the portions and mark it eaten.",
+    "ar": "اضغط عشان تشوف الكميات وتعلّم إنك أكلتها."
+   }
+  },
+  "evening": {
+   "title": {
+    "en": "Log your day",
+    "ar": "سجّل يومك"
+   },
+   "body": {
+    "en": "Steps, sleep, water, meals and sets. Two minutes now keeps your trend accurate.",
+    "ar": "الخطوات والنوم والمية والوجبات والمجموعات. دقيقتين دلوقتي بيخلّوا متابعتك دقيقة."
+   }
+  }
+ }
+}

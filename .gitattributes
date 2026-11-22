@@ -1,0 +1,2 @@
+# Serve files byte-for-byte: the signature and checksum cover the exact bytes.
+* -text
